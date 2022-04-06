@@ -73,10 +73,14 @@ From the json data in data_2.json, the data structure is shown.
     }
   }
   
+  
+  
 {
   "Id": 1,
-  "_comment": "Expected output, generates a json schema as:"
+  "_comment": "Expected output, generates a json schema as shown below:"
 }
+  
+  
   
       {
     "user": {
