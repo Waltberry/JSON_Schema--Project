@@ -84,59 +84,256 @@ From the json data in data_2.json, the data structure is shown.
   
   
       {
-    "user": {
+    "battle": {
         "id": {
-            "type": "string",
             "tag": "",
             "description": "",
-            "required": false
+            "required": false,
+            "type": "string"
         },
-        "nickname": {
-            "type": "string",
+        "name": {
             "tag": "",
             "description": "",
-            "required": false
-        },
-        "title": {
-            "type": "string",
-            "tag": "",
-            "description": "",
-            "required": false
-        },
-        "accountType": {
-            "type": "string",
-            "tag": "",
-            "description": "",
-            "required": false
-        },
-        "countryCode": {
-            "type": "string",
-            "tag": "",
-            "description": "",
-            "required": false
+            "required": false,
+            "type": "string"
         },
         "orientation": {
-            "type": "string",
             "tag": "",
             "description": "",
-            "required": false
+            "required": false,
+            "type": "string"
+        },
+        "settings": {
+            "minParticipants": {
+                "tag": "",
+                "description": "",
+                "required": false,
+                "type": "integer"
+            },
+            "maxParticipants": {
+                "tag": "",
+                "description": "",
+                "required": false,
+                "type": "integer"
+            },
+            "battleType": {
+                "tag": "",
+                "description": "",
+                "required": false,
+                "type": "string"
+            },
+            "wagerType": {
+                "tag": "",
+                "description": "",
+                "required": false,
+                "type": "string"
+            },
+            "countdown": {
+                "tag": "",
+                "description": "",
+                "required": false,
+                "type": "integer"
+            },
+            "duration": {
+                "tag": "",
+                "description": "",
+                "required": false,
+                "type": "integer"
+            },
+            "archetype": {
+                "name": {
+                    "tag": "",
+                    "description": "",
+                    "required": false,
+                    "type": "string"
+                },
+                "iconId": {
+                    "tag": "",
+                    "description": "",
+                    "required": false,
+                    "type": "string"
+                }
+            }
+        },
+        "status": {
+            "tag": "",
+            "description": "",
+            "required": false,
+            "type": "string"
+        },
+        "creationTime": {
+            "tag": "",
+            "description": "",
+            "required": false,
+            "type": "integer"
+        },
+        "startTime": {
+            "tag": "",
+            "description": "",
+            "required": false,
+            "type": "integer"
+        },
+        "endTime": {
+            "tag": "",
+            "description": "",
+            "required": false,
+            "type": "integer"
+        },
+        "creator": {
+            "id": {
+                "tag": "",
+                "description": "",
+                "required": false,
+                "type": "string"
+            },
+            "nickname": {
+                "tag": "",
+                "description": "",
+                "required": false,
+                "type": "string"
+            },
+            "title": {
+                "tag": "",
+                "description": "",
+                "required": false,
+                "type": "string"
+            },
+            "accountType": {
+                "tag": "",
+                "description": "",
+                "required": false,
+                "type": "string"
+            },
+            "countryCode": {
+                "tag": "",
+                "description": "",
+                "required": false,
+                "type": "string"
+            },
+            "orientation": {
+                "tag": "",
+                "description": "",
+                "required": false,
+                "type": "string"
+            }
+        },
+        "participants": {
+            "tag": "",
+            "description": "",
+            "required": false,
+            "type": "array"
+        }
+    },
+    "joiner": {
+        "id": {
+            "tag": "",
+            "description": "",
+            "required": false,
+            "type": "string"
+        },
+        "nickname": {
+            "tag": "",
+            "description": "",
+            "required": false,
+            "type": "string"
+        },
+        "title": {
+            "tag": "",
+            "description": "",
+            "required": false,
+            "type": "string"
+        },
+        "accountType": {
+            "tag": "",
+            "description": "",
+            "required": false,
+            "type": "string"
+        },
+        "countryCode": {
+            "tag": "",
+            "description": "",
+            "required": false,
+            "type": "string"
+        },
+        "orientation": {
+            "tag": "",
+            "description": "",
+            "required": false,
+            "type": "string"
+        }
+    },
+    "participantIds": {
+        "tag": "",
+        "description": "",
+        "required": false,
+        "type": "enum"
+    },
+    "user": {
+        "id": {
+            "tag": "",
+            "description": "",
+            "required": false,
+            "type": "string"
+        },
+        "nickname": {
+            "tag": "",
+            "description": "",
+            "required": false,
+            "type": "string"
+        },
+        "title": {
+            "tag": "",
+            "description": "",
+            "required": false,
+            "type": "string"
+        },
+        "accountType": {
+            "tag": "",
+            "description": "",
+            "required": false,
+            "type": "string"
+        },
+        "countryCode": {
+            "tag": "",
+            "description": "",
+            "required": false,
+            "type": "string"
+        },
+        "orientation": {
+            "tag": "",
+            "description": "",
+            "required": false,
+            "type": "string"
         }
     },
     "time": {
-        "type": "integer",
         "tag": "",
         "description": "",
-        "required": false
+        "required": false,
+        "type": "integer"
     },
-    "acl": null,
-    "publicFeed": null,
+    "acl": {
+        "tag": "",
+        "description": "",
+        "required": false,
+        "type": "enum"
+    },
+    "publicFeed": {
+        "tag": "",
+        "description": "",
+        "required": false,
+        "type": "integer"
+    },
     "internationalCountries": {
-        "type": "enum",
         "tag": "",
         "description": "",
-        "required": false
+        "required": false,
+        "type": "enum"
     },
-    "topTraderFeed": null
+    "topTraderFeed": {
+        "tag": "",
+        "description": "",
+        "required": false,
+        "type": "integer"
+    }
 }
-
-
