@@ -2,6 +2,7 @@
 
 # What is a JSON schema
 JSON Schema is a vocabulary that allows you to annotate and validate JSON documents.
+it defines the structure of a JSON message, can be used to validate a JSON message or API request and response in JSON format.
 
 # Benefits
 1. Describes your existing data format(s).
