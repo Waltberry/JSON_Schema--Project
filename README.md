@@ -73,7 +73,7 @@ From the json data in data_2.json, the data structure is shown.
     }
   }
 
-  # Expected output
+  /* Expected output *\
   
       {
     "user": {
