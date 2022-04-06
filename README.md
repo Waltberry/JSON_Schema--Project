@@ -1,6 +1,6 @@
 # JSON_Schema--Project
 
-#What is a JSON schema
+# What is a JSON schema
 JSON Schema is a vocabulary that allows you to annotate and validate JSON documents.
 
 # Benefits
