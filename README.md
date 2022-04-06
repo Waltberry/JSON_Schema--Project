@@ -75,7 +75,7 @@ From the json data in data_2.json, the data structure is shown.
 
   #Expected output, generates a json schema as:
   
-      },
+      {
     "user": {
         "id": {
             "type": "string",
